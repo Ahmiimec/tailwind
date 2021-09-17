@@ -1,0 +1,22 @@
+.mainBody{
+    background-color: rgb(17 24 40);
+    /* min-height: 100vh; */
+}
+
+.landingBody{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.rightSide{
+        display:flex;
+        /* width:100% */
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: rgb(17 24 40);
+}
+

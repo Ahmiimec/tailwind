@@ -1,0 +1,41 @@
+.mainHeader{
+    /* display:flex; */
+    /* width:100% !important; */
+    /* border:purple solid 1px */
+}
+
+.leftSide{
+    /* border:red solid 2px; */
+    /* padding: 25px 0px 0px 20px; */
+    display:flex;
+    justify-content: flex-start;
+}
+.rightSide{
+    /* border: green solid 2px; */
+    /* padding: 25px 20px 0px 20px; */
+    /* width:100%; */
+    /* float:right; */
+    /* display:flex; */
+    /* justify-content: flex-end; */
+}
+
+.whiteTitle{
+    margin-left: 35px;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ImageDisplay{
+    display:block
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .ImageDisplay{
+        display:none !important;
+    }
+  }
+
+  

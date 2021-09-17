@@ -1,0 +1,85 @@
+.TextSide{
+    padding: 180px 0px 0px 0px;
+    display:flex;
+    flex-direction: column;
+    /* width:100%; */
+}
+
+.customCard{
+    border-radius:20px;
+    border-color: black;
+    background-color: black;
+    display:flex;
+    width:max-content;
+}
+
+.customButton{
+    background: rgb(21,180,167);
+    background: linear-gradient(86deg, rgba(21,180,167,1) 0%, rgba(8,147,180,1) 100%);
+    margin-right:10px;
+}
+
+.whiteSmallText{
+    color:white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.whiteBigText{
+    color:white;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.cyanBigText{
+    color:#69eed7;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.whiteMediumText{
+    color:white;
+    /* width:70%; */
+}
+
+.whiteMiniText{
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.whiteMiniBold{
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.formEmail{
+    display:flex;
+}
+
+.spacer{
+    margin-left: 10px;
+}
+
+.spacerBottom{
+    margin-bottom:20px
+}
+
+.ImageDisplaySmall{
+    display:none
+}
+
+@media screen and (max-width: 600px) {
+    .ImageDisplaySmall{
+        display:flex !important;
+        width:80%;
+        justify-content: center;
+    }
+    .TextSide{
+        padding: 20px 0px 0px 0px;
+        display:flex;
+        flex-direction: column;
+        /* width:100%; */
+    }
+  }
